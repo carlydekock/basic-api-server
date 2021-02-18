@@ -7,7 +7,7 @@ class ClothesInterface {
     this.id = 0;
     // this is going tobe filled with objects as we create new clothes.
     this.db = [];
-    //[{id, data: {name, role}}]
+    //[{id, data: {name, type}}]
   }
 
 
@@ -45,8 +45,12 @@ class ClothesInterface {
   }
 
   // search for a clothes and remove  
-  delete() {
-
+  delete(id) {
+    for (let i = 0; i < this.db.length; i++){
+      if (this.db[i].id === id) {
+        delete this.db[i];
+      }
+    }
   }
 }
 

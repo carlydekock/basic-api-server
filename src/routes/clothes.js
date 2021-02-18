@@ -41,7 +41,9 @@ function updateClothes(request, response, next) {
 }
 
 function removeClothes(request, response, next) {
-
+  const id = parseInt(request.params.id);
+  let responseObject = clothes.delete(id);
+  response.status(204).json(responseObject);
 }
 
 module.exports = router;
