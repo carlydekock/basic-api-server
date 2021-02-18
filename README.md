@@ -5,12 +5,12 @@ Dynamic API Phase 1: Build your core, standards compliant Express server
 ## Author: Carly Dekock
 
 ## [Link to GitHub repository](https://github.com/carlydekock/basic-api-server.git)
-## [Link to PR](https://github.com/carlydekock/basic-api-server/pull/1)
+## [Link to PR](https://github.com/carlydekock/basic-api-server/pull/3)
 
 ## Deployed links
 
-- Link to deployed site on Heroku
-- Link to GitHub actions
+- [Link to deployed site on Heroku](https://carlydekock-basic-api-server.herokuapp.com)
+- [Link to GitHub actions](https://github.com/carlydekock/basic-api-server/actions)
 
 ## The Setup
 
@@ -34,4 +34,4 @@ Dynamic API Phase 1: Build your core, standards compliant Express server
 
 ## Credits and Collaborations
 
-- Worked at lab table with Jason Q, Jason D, and Nick M
+- Worked at lab table with Jason Q, Jason D, Nick M, and Seid
