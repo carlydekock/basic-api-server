@@ -30,7 +30,7 @@ Dynamic API Phase 3: Add persistence (database) to your API
 - Visit http://localhost:PORT at the PORT number you've assigned in your .env
 
 ## UML
-![image](assets/UML-Lab4.png)
+![image](assets/UML_Lab4.png)
 
 ## Credits and Collaborations
 
