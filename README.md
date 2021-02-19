@@ -1,11 +1,11 @@
-# LAB: Express REST API
+# LAB: Express REST API - Data Modeling
 
-Dynamic API Phase 1: Build your core, standards compliant Express server
+Dynamic API Phase 3: Add persistence (database) to your API
 
 ## Author: Carly Dekock
 
 ## [Link to GitHub repository](https://github.com/carlydekock/basic-api-server.git)
-## [Link to PR](https://github.com/carlydekock/basic-api-server/pull/3)
+## [Link to PR](https://github.com/carlydekock/basic-api-server/pull/4)
 
 ## Deployed links
 
@@ -17,8 +17,8 @@ Dynamic API Phase 1: Build your core, standards compliant Express server
 ### How to install
 
 - Clone down repository from GitHub
-- Run the command ```npm install``` to install dependencies (dotenv, express, jest, supertest)
-- create .env file with PORT variable
+- Run the command ```npm install``` to install dependencies (dotenv, express, jest, supertest, mongoose, supergoose)
+- create .env file with PORT variable and MONGODB_URI
 
 ### How to test
 
@@ -30,8 +30,8 @@ Dynamic API Phase 1: Build your core, standards compliant Express server
 - Visit http://localhost:PORT at the PORT number you've assigned in your .env
 
 ## UML
-![image](assets/UML.png)
+![image](assets/UML_Lab4.png)
 
 ## Credits and Collaborations
 
-- Worked at lab table with Jason Q, Jason D, Nick M, and Seid
+- Worked at lab table with Jason Q, Jason D, Nick M, Seid, Bill

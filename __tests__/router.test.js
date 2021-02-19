@@ -5,7 +5,6 @@ const server =  require('../src/server.js');
 const supertest = require('supertest');
 const request = supertest(server.app);
 
-
 describe('Server tests', () => {
 
   //////// TESTS FOR FOOD ROUTE
